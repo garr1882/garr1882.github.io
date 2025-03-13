@@ -1,4 +1,11 @@
 :root
 {
-  background-image: url(images/fireball.png);
+  background-color: yellow;
+  background-image: url("images/fireball.png");
+  background-repeat: repeat;
+  color: red;
 }
+@font-face
+{
+  font-family: coolfont;
+  src: url
