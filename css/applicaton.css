@@ -5,4 +5,11 @@
   background-repeat: repeat;
   color: red;
 }
+.example
+{
+    border: 2px rgb(200, 200, 200) solid;
+    width: 30vw;
+    background-color: rgb(38, 38, 38);
+    float: right;
+}
   src: url
