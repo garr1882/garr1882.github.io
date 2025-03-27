@@ -20,6 +20,7 @@ h3
 }
 .example p
 {
+    text-align: center;
     margin: 10px;
     font-size: 12pt;
 }
