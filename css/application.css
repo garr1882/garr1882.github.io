@@ -49,3 +49,15 @@ h1
     font-size: 42pt;
     margin: 15px;
 }
+nav
+{
+    text-align: center;
+    width: 92vh;
+    margin: auto;
+}
+nav ul
+{
+    list-style-type: none;
+    margin: 0px;
+}
+
