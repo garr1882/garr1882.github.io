@@ -7,9 +7,9 @@
 }
 .example
 {
-    border: 2px rgb(200, 200, 200) solid;
+    border: 2px rgb(38, 38, 38) solid;
     width: 30vw;
-    background-color: rgb(38, 38, 38);
+    background-color: rgb(200, 200, 200);
     float: right;
 }
   src: url
