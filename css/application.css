@@ -37,3 +37,15 @@ h3
     margin: 10px;
     font-size: 12pt;
 }
+@font-face
+{
+    font-family: BungeeTint;
+    src: url("fonts/BungeeTint-Regular.ttf")
+}
+h1
+{
+    font-family: BungeeTint;
+    text-align: center;
+    font-size: 42pt;
+    margin: 15px;
+}
