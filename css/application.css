@@ -1,7 +1,7 @@
 :root
 {
-    background-color: purple;
+    background-color: rgb(195, 177, 225);
     background-image: url("images/fireball.png");
     background-repeat: repeat;
-    color: red;
+    color: rgb(139, 0, 0);
 }
