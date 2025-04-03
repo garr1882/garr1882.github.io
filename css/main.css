@@ -1,10 +1,10 @@
 :root
 {
-    --cream: RGB(255, 253, 208);
+    --silver: RGB(192, 192, 192);
     --pastelpink: RGB(248, 200, 220);
     --gold: RGB(255, 215, 0);
     color: var(--gold);
-    background-color: var(--cream);
+    background-color: var(--silver);
     text-align: center;
 }
 
@@ -21,7 +21,7 @@ h1
 }
 h2
 {
-    font-size: 48pt;
+    font-size: 36pt;
     text-decoration: underline;
     color: var(--gold);
 
