@@ -2,8 +2,8 @@
 {
     --silver: RGB(192, 192, 192);
     --pastelpink: RGB(248, 200, 220);
-    --gold: RGB(255, 215, 0);
-    color: var(--gold);
+    --pastelyellow: RGB(255, 238, 140);
+    color: var(--pastelyellow);
     background-color: var(--silver);
     text-align: center;
 }
@@ -23,7 +23,7 @@ h2
 {
     font-size: 36pt;
     text-decoration: underline;
-    color: var(--gold);
+    color: var(--pastelyellow);
 
 img
 {
