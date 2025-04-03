@@ -17,8 +17,13 @@ h1
 {
     font-size: 48pt;
     text-decoration: underline;
-    color: pastelpink;
+    color: var(--pastelpink);
 }
+h2
+{
+    font-size: 48pt;
+    text-decoration: underline;
+    color: var(--gold);
 
 img
 {
