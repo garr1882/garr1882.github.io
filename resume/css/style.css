@@ -1,7 +1,7 @@
 @font-face
 {
-    font-family: Grotesk;
-    src: url("/fonts/SpaceGrotesk-VariableFont_wght.ttf")
+    font-family: "Grotesk";
+    src: url("css/SpaceGrotesk-VariableFont_wght.ttf");
 }
 
 :root
