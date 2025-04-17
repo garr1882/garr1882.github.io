@@ -22,16 +22,16 @@ body
 h1
 {
     font-size: calc(16pt + 6vw);
-    font-family: 'Grotesk';
+    font-family: Grotesk;
 }
 h2
 {
     font-size: 28pt;
-    font-family: 'Grotesk';
+    font-family: Grotesk;
 }
 nav
 {
-    font-family: 'Grotesk';
+    font-family: Grotesk;
 }
 #top
 {
