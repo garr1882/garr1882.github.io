@@ -1,1 +1,64 @@
+@font-face
+{
+    font-family: 'Grotesk';
+    src: url(fonts/SpaceGrotesk-VariableFont_wght.ttf);
+}
 
+:root
+{
+ --pastelpink: RGB(248, 200, 220);
+ --pastelyellow: RGB(255, 238, 140);
+  --silver: RGB(192, 192, 192);
+}
+body
+{
+    background-color: var(--silver);
+}
+*
+{
+    color: var(--pastelpink);
+    text-align: center;
+}
+h1
+{
+    font-size: calc(16pt + 6vw);
+    font-family: 'Grotesk';
+}
+h2
+{
+    font-size: 28pt;
+    font-family: 'Grotesk';
+}
+nav
+{
+    font-family: 'Grotesk';
+}
+#top
+{
+    border: 12px var(--pastelyellow) solid;
+    margin: 8vw;
+    margin-top: 5px;
+}
+section
+{
+    border: 5px var(--pastelpink) solid;
+    margin: 18vw;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.date
+{
+    color: var(--pastelyellow);
+    white-space: nowrap;
+}
+
+.date strong
+{
+    color: var(--pastelyellow);
+    white-space: nowrap;
+}
+ul
+{
+    list-style: none;
+    padding-left: 0px;
+}
