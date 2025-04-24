@@ -43,7 +43,7 @@ body
   margin: 0;
   overflow-x: hidden; 
 }
-/* Base table styles */
+    
 .responsive-table {
   width: 100%;
   border-collapse: collapse;
