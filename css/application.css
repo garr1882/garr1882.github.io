@@ -76,3 +76,9 @@ p
     font-size: 16pt;
     margin: 10px;
 }
+body 
+{
+  margin: 0;
+  overflow-x: hidden; 
+}
+
