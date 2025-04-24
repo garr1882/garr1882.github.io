@@ -6,91 +6,81 @@
         <title>Superheroes</title>
 
         <style>
-            h1
-            {
-                color: white;
-                text-align: center;
+            h1 {
+            color: white;
+            text-align: center;
+        }
+        h2 {
+            color: blue;
+        }
+        p {
+            text-align: center;
+        }
+        body {
+            background-color: rgb(211, 211, 211);
+        }
+        th {
+            color: rgb(0, 0, 0);
+        }
+        img {
+            height: 100px;
+        }
+        td, th {
+            border: 2px solid black;
+            padding: 15px;
+        }
+        table {
+            border-collapse: collapse;
+            margin-left: auto; 
+            margin-right: auto;
+            width: 100%;
+            table-layout: auto; /* Ensure natural layout */
+        }
+        th {
+            font-size: 18px;
+            text-align: left;
+        }
+        .heropic:hover {
+            background-color: red;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            table, thead, tbody, th, td, tr {
+                width: 100%;
             }
-            h2
-            {
-                color: blue;
-            }
-            p
-            {
-                text-align: center;
-            }
-            body
-            {
-                background-color: rgb(211, 211, 211);
-            }
-            th
-            {
-                color: rgb(0, 0, 0);
-            }
-            img
-            {
-                height: 100px;
-            }
-            td, th
-            {
-                border: 2px solid black;
-                padding: 15px;
-                
-            }
-            table
-            {
-                border-collapse: collapse;
-                margin-left: auto; 
-                margin-right: auto;
-                width: 100%
-                table-layout: auto;
-            }
-            th
-            {
-                font-size: 18px;
-                text-align: left
-            }
-            .heropic:hover
-            {
-                background-color: red;
-            }
-            
-        @media (max-width: 768px) 
-            {
-           table, thead, tbody, th, td, tr 
-                {
-                    width: 100%;
-                }
+
             th {
-                    display: none;
-                }
-
-                td {
-                    position: relative;
-                    padding-left: 50%;
-                    border: 1px solid #ccc;
-                    margin-bottom: 10px;
-                    text-align: left;
-                }
-
-                td::before {
-                    content: attr(data-label);
-                    position: absolute;
-                    left: 10px;
-                    font-weight: bold;
-                }
-
-                td img {
-                    max-width: 100%;
-                    height: auto;
-                }
+                display: none;
             }
+
+            td {
+                position: relative;
+                padding-left: 50%;
+                border: 1px solid #ccc;
+                margin-bottom: 10px;
+                text-align: left;
+            }
+
+            td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                font-weight: bold;
+            }
+
+            td img {
+                max-width: 100%;
+                height: auto;
+            }
+        }
         </style>
 
     </head>
     <body>
         <h1>My Superheroes</h1>
         <table>
+        <table class="responsive-table">
             <thead>
                 <tr>
                     <th style="color: blue;">Name</th>
@@ -99,7 +89,6 @@
                     <th style="color: blue;">Weaknesses</th>
                     <th style="color: blue;">Image</th>
                 </tr>
-           <table class="responsive-table">
             </thead>
             <tbody>
                 <tr>
