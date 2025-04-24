@@ -13,6 +13,8 @@
 body
 {
     background-color: var(--silver);
+    margin: 0;
+    overflow-x: hidden; 
 }
 *
 {
