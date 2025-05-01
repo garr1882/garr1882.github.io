@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>American Eagle Testimonial</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 40px;
+    }
+
+    .testimonial-card {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: auto;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .testimonial-card img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .testimonial-card h3 {
+      margin-bottom: 5px;
+      font-size: 1.2rem;
+      color: #333;
+    }
+
+    .testimonial-card p {
+      font-size: 1rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .testimonial-card .quote {
+      font-style: italic;
+      color: #777;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="testimonial-card">
+    <img src="https://i.imgur.com/QX4JpHJ.png" alt="Customer Photo" />
+    <h3>Emma L.</h3>
+    <p class="quote">
+      "American Eagle’s jeans are hands-down the best I’ve ever worn. They fit perfectly, feel amazing, and last a long time. Whether I'm going to class or heading out with friends, AE always keeps me stylish and comfortable. I seriously recommend them to everyone!"
+    </p>
+  </div>
+
+</body>
+</html>
