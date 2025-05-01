@@ -1,1 +1,89 @@
+:root
+{
+    --white: RGB(255, 255, 255);
+    --navy: RGB(0, 0, 128);
+    --black: RGB(0, 0, 0);
+    color: var(--black);
+    background-color: var(--white);
+    text-align: center;
+}
 
+.title
+{
+    color: var(--navy);
+}
+
+h1
+{
+    font-size: 48pt;
+    text-decoration: underline;
+    color: var(--navy);
+}
+h2
+{
+    font-size: 36pt;
+    text-decoration: underline;
+    color: var(--black);
+
+img
+{
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+table
+{
+    margin: auto;
+}
+body 
+{
+  margin: 0;
+  overflow-x: hidden; 
+}
+    
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.responsive-table th,
+.responsive-table td 
+{
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+
+@media (max-width: 768px) 
+{
+  .responsive-table thead 
+    {
+    display: none;
+    }
+
+  .responsive-table tr 
+  {
+    display: block;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+  }
+
+  .responsive-table td 
+  {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .responsive-table td::before 
+{
+    content: attr(data-label);
+    font-weight: bold;
+  }
+}
