@@ -24,6 +24,10 @@ h2
     font-size: 36pt;
     text-decoration: underline;
     color: var(--black);
+p
+{
+    font-size: 24pt;
+    color: var(--black);
 
 img
 {
