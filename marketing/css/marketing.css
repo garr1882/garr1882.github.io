@@ -25,12 +25,12 @@ body {
     .testimonial-card h3 {
       margin-bottom: 5px;
       font-size: 1.2rem;
-      color: #333;
+      color: #002952;
     }
 
     .testimonial-card p {
       font-size: 1rem;
-      color: #555;
+      color: #003366;
       line-height: 1.6;
     }
 
