@@ -7,13 +7,13 @@
 @font-face
 {
     font-family: IBMPlexSans;
-    src: url("IBMPlexSans-VariableFont_wdth,wght.ttf")
+    src: url("IBMPlexSans-VariableFont_wdth,wght.ttf");
 }
 
 body {
       background-color: #f4f4f4;
       padding: 40px;
-      font-family: IBMPlexSans
+      font-family: IBMPlexSans;
     }
 
     .testimonial-card {
