@@ -39,3 +39,11 @@ body {
       color: #777;
       margin-top: 15px;
     }
+img
+{
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
