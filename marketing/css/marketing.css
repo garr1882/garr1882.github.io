@@ -53,3 +53,8 @@ img
     max-width: 100%;
     height: auto;
 }
+@font-face
+{
+    font-family: IBMPlexSans;
+    src: url("css/IBMPlexSans-VariableFont_wdth,wght.ttf")
+}
